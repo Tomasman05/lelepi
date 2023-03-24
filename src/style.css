@@ -1,3 +1,13 @@
+/* Vitovszki Tamás, 0358-as feladat, 2023.03.24 */
 body{
     background-color: aquamarine !important;
+}
+footer {
+    background-color: darkcyan;
+}
+#result {
+    display: none;
+}
+span{
+    font-weight: bolder;
 }
