@@ -10,7 +10,26 @@
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1 class="text-center">Paralelepipedon</h1>
+        <div class="lelepiForm">
+            <div class="mt 3"> 
+                <label for="sideA" class="form-label">'A' oldal (cm)</label>
+                <input type="text" id="sideA" class="form-control">
+            </div>
+            <div class="mt 3"> 
+                <label for="sideB" class="form-label">'B' oldal (cm)</label>
+                <input type="text" id="sideB" class="form-control">
+            </div>
+            <div class="mt 3"> 
+                <label for="sideC" class="form-label">'C' oldal (cm)</label>
+                <input type="text" id="sideC" class="form-control">
+            </div>
+            <button id="calcBtn" class="btn btn-success mt-3">Számít</button>
+            <div class="mt 3" id="result"> 
+                <label for="volume" class="form-label ">Térfogat</label>
+                <input type="text" id="volume" class="form-control" readonly>
+            </div>
+        </div>
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>

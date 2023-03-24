@@ -1,0 +1,5 @@
+const sideAInput = document.querySelector("#sideA")
+const sideBInput = document.querySelector("#sideB")
+const sideCInput = document.querySelector("#sideC")
+const calcBtn = document.querySelector("#calcBtn")
+const volumeOutput = document.querySelector("#volume")
